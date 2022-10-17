@@ -1,0 +1,72 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.eeveelutions{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.sylveonnumbreon{
+    width: 400px
+}
+.flareonnespeon{
+    width: 400px
+}
+.leafeonnjolteon{
+    width:400px
+}
+.eeveelutions{
+    display: flex;
+    flex-direction:row;
+}
+.eeveenpic{
+    display: flex;
+    flex-direction: row;
+}
+.title{
+    background-color: rgb(177, 236, 255);
+    color: white;
+}
+.waterstone{
+    display: flex;
+    flex-direction: row;
+}
+.thunderstone{
+    display: flex;
+    flex-direction: row;
+}
+.firestone{
+    display: flex;
+    flex-direction: row;
+}
+.sunshard{
+    display: flex;
+    flex-direction: row;
+}
+.moonshard{
+    display: flex;
+    flex-direction: row;
+}
+.leafstone{
+    display: flex;
+    flex-direction: row;
+}
+.icestone{
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    color:white
+}
+h2 {
+    width: 300px;
+    color: pink
+}
+h3 {
+    color: pink
+}
+body {
+    background-color: white;
+}
