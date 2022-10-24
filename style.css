@@ -5,7 +5,6 @@
 .eeveelutions{
 display: flex;
 flex-direction: row;
-flex-wrap: wrap;
 }
 .sylveonnumbreon{
     width: 400px
@@ -15,10 +14,6 @@ flex-wrap: wrap;
 }
 .leafeonnjolteon{
     width:400px
-}
-.eeveelutions{
-    display: flex;
-    flex-direction:row;
 }
 .eeveenpic{
     display: flex;
@@ -56,7 +51,45 @@ flex-wrap: wrap;
     display: flex;
     flex-direction: row;
 }
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+.howtoevolve{
+    display: flex;
+    flex-direction: column;
+}
+.shiny{
+    display: flex;
+    flex-direction: row;
 
+}
+.howtogetshiny{
+    margin-left: 500px;
+}
+button {
+    border: none;
+    background-color: pink;
+}
+.tom {
+    width: 5px;
+}
+.rename{
+    display: flex;
+    flex-direction: column;
+}
+.alleevees{
+    display: flex;
+    flex-direction: row;
+}
+.stones{
+    display: flex;
+    flex-direction: column;
+}
+.ivehadenough{
+    display: flex;
+    flex-direction: column;
+}
 h1 {
     color:white
 }
