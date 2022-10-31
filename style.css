@@ -1,10 +1,14 @@
 .container{
     display: flex;
-    flex-direction: column;
 }
+.container2{
+    display: flex;
+}
+
 .eeveelutions{
 display: flex;
 flex-direction: row;
+
 }
 .sylveonnumbreon{
     width: 400px
@@ -20,8 +24,11 @@ flex-direction: row;
     flex-direction: row;
 }
 .title{
+    display: flex;
     background-color: rgb(177, 236, 255);
     color: white;
+    height: 75px;
+    align-content: center;
 }
 .waterstone{
     display: flex;
@@ -78,18 +85,25 @@ button {
     display: flex;
     flex-direction: column;
 }
-.alleevees{
-    display: flex;
-    flex-direction: row;
-}
+
 .stones{
     display: flex;
     flex-direction: column;
 }
-.ivehadenough{
+.alleevees{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+.tables{
     display: flex;
     flex-direction: column;
 }
+.all4{
+    display: flex;
+    flex-direction: column;
+}
+
 h1 {
     color:white
 }
@@ -102,4 +116,10 @@ h3 {
 }
 body {
     background-color: white;
+}
+.empty {
+    height: 5px;
+}
+.aahaa {
+    margin-left: 10%;
 }
